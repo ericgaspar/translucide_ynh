@@ -1,5 +1,5 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/simonvdfr/Translucide/archive/refs/tags/v1.0.tar.gz
+SOURCE_SUM=431e4f4495e8797d6eb656cd3ab283cec56a395124782039ccf59821ea216cfa
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true

@@ -1,5 +1,5 @@
 {
-    "name": "Example app",
+    "name": "Translucide",
     "id": "example",
     "packaging_format": 1,
     "description": {
@@ -7,16 +7,16 @@
         "fr": "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
     },
     "version": "1.0~ynh1",
-    "url": "https://example.com",
+    "url": "https://www.translucide.net/",
     "upstream": {
-        "license": "free",
-        "website": "https://example.com",
+        "license": "MIT",
+        "website": "https://www.translucide.net/",
         "demo": "https://demo.example.com",
         "admindoc": "https://yunohost.org/packaging_apps",
         "userdoc": "https://yunohost.org/apps",
-        "code": "https://some.forge.com/example/example"
+        "code": "https://github.com/simonvdfr/Translucide"
     },
-    "license": "free",
+    "license": "MIT",
     "maintainer": {
         "name": "John doe",
         "email": "john.doe@example.com"
@@ -46,28 +46,6 @@
                 "name": "is_public",
                 "type": "boolean",
                 "default": true
-            },
-            {
-                "name": "language",
-                "type": "string",
-                "ask": {
-                    "en": "Choose the application language",
-                    "fr": "Choisissez la langue de l'application"
-                },
-                "choices": ["fr", "en"],
-                "default": "fr"
-            },
-            {
-                "name": "admin",
-                "type": "user"
-            },
-            {
-                "name": "password",
-                "type": "password",
-                "help": {
-                    "en": "Use the help field to add an information for the admin about this question.",
-                    "fr": "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
-                }
             }
         ]
     }
